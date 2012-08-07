@@ -11,3 +11,17 @@
  *= require_self
  *= require_tree .
  */
+h1#body_content_title {
+	color: brown;
+
+}
+a {
+	color: green;
+ 	
+ }
+nav#menu {
+	color: red;
+}
+
+
+/* use chrome browser & select element  */ 
