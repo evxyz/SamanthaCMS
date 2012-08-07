@@ -9,6 +9,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'eventmachine'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -34,7 +36,7 @@ gem 'thin'
 end
 
 gem 'jquery-rails'
-
+gem 'refinerycms-i18n', '~> 2.0.0'
 gem 'refinery'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
